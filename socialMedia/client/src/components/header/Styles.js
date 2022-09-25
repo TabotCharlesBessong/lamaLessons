@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core'
 
 export default makeStyles((theme)=>({
   root:{
-    zIndex:1
+    display:'flex',
+    alignItems:'center',
+    justifyContent:'center',
+    color:'red',
+    fontSize:'3rem'
   }
 }))
