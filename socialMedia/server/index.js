@@ -11,9 +11,16 @@ dotenv.config()
 
 const port = 5000 || process.env.PORT
 
-mongoose.connect(process.env.MONGO_URL,{useNewUrlParser:true, useUnifiedTopology:true},()=>{
-  console.log('Connected the the DB!')
-})
+mongoose
+	.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+	.then(() =>
+		app.listen(port, () =>
+			console.log(`The DB is connected on port ${port}... `)
+		)
+	)
+	.catch((err) => {
+		console.log(err.message);
+	});
 
 //  middlewares 
 app.use(express.json())
