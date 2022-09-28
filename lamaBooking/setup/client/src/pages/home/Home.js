@@ -1,12 +1,15 @@
 
 import React from 'react'
+import { Featured } from '../../components'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hello Home</h1>
-    </div>
-  )
+		<div>
+			<div className="homeContainer">
+        <Featured/>
+      </div>
+		</div>
+	);
 }
 
 export default Home 
