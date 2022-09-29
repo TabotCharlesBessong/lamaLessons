@@ -1,9 +1,12 @@
-import React from 'react'
-import useFetch from "../../hooks/useFetch";
+import React , {useState} from 'react'
+// import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
+import datas from '../../constant/data'
 
 const FeaturedProperties = () => {
-	const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
+	// const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
+	const [loading,setLoading] = useState(false)
+	const data = datas.featured
 
 	return (
 		<div className="fp">
