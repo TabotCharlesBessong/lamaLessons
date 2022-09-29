@@ -2,7 +2,7 @@
 import React from 'react'
 // import useFetch from "../../hooks/useFetch";
 import "./featured.css";
-import {images} from '../../constant/images'
+import images from '../../constant/images'
 const Featured = () => {
 	// const { data, loading, error } = useFetch(
 	// 	"/hotels/countByCity?cities=berlin,madrid,london"
