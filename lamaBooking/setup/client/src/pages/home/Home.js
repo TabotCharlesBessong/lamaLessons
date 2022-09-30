@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Featured, PropertyList, FeaturedProperties } from "../../components";
+import { Featured, PropertyList, FeaturedProperties , MailList } from "../../components";
 import './home.css'
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
 				<PropertyList />
 				<h1 className="homeTitle"> homes guest love</h1>
 				<FeaturedProperties/>
+				<MailList/>
 			</div>
 		</div>
 	);
