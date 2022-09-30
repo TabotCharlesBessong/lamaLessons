@@ -1,11 +1,8 @@
-import React from 'react'
-import { Header } from './components'
-
+import React from 'react' 
 const App = () => {
   return (
     <div>
-      App
-      <Header />
+      Hello APp
     </div>
   )
 }
