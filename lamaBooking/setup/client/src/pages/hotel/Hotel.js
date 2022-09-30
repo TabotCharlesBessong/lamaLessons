@@ -1,7 +1,7 @@
 import React from 'react'
 import "./hotel.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {Header , Navbar, Footer , MailList , Reserve } from './components'
+import {Header , Navbar, Footer , MailList , Reserve } from '../../components'
 import {
 	faCircleArrowLeft,
 	faCircleArrowRight,
