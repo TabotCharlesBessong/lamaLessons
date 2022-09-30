@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import { Home } from './pages'
-import {Header , Navbar } from './components'
+import {Header , Navbar, Footer } from './components'
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/>} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   )
