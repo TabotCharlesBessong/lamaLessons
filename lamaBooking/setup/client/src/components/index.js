@@ -7,3 +7,4 @@ export { default as FeaturedProperties } from "./featuredProperties/FeaturedProp
 export { default as MailList } from "./mailList/MailList";
 export { default as Footer } from "./footer/Footer";
 export { default as Reserve } from "./reserve/Reserve";
+export { default as SearchItem } from "./searchItem/SearchItem";
