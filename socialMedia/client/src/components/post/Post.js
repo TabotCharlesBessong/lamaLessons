@@ -1,8 +1,8 @@
 import React from 'react'
-// import images from '../../constant/images'
+import images from '../../constant/images'
 import data from '../../constant/data'
 import './post.css'
-import { MoreVert , ThumbUp  , HearingTwoTone  } from '@material-ui/icons'
+import { MoreVert   } from '@material-ui/icons'
 
 const Post = () => {
   const datas = data.post
@@ -26,20 +26,18 @@ const Post = () => {
 					</div>
 					<div className="postBottom">
 						<div className="postBottomLeft">
-							{/* <img
+							<img
 								className="likeIcon"
-								src={`${PF}like.png`}
+								src={images.img25}
 								onClick={() => console.log("hello")}
 								alt=""
-							/> */}
-              <ThumbUp />
-							{/* <img
+							/>
+							<img
 								className="likeIcon"
-								src={`${PF}heart.png`}
+								src={images.img26}
 								onClick={() => console.log("hello")}
 								alt=""
-							/> */}
-              <HearingTwoTone/>
+							/>
 							<span className="postLikeCounter">{post.like} people like it</span>
 						</div>
 						<div className="postBottomRight">
