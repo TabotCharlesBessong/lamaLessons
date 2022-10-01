@@ -11,6 +11,7 @@ const Header = () => {
 				{/* <Link to="/" style={{ textDecoration: "none" }}>
 					<span className="logo">Lamasocial</span>
 				</Link> */}
+				<span className="logo">Charlessocial</span>
 			</div>
 			<div className="topbarCenter">
 				<div className="searchbar">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header , Sidebar } from '../../components/index'
+import { Header , Sidebar , Feed , Rightbar } from '../../components/index'
 import './home.css'
 
 const Home = () => {
@@ -8,6 +8,8 @@ const Home = () => {
       <Header/>
       <div className='homeContainer' >
         <Sidebar/>
+        <Feed/>
+        <Rightbar/>
       </div>
     </div>
   )
