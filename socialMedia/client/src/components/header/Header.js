@@ -1,7 +1,8 @@
 import React from 'react'
 import './header.css'
 import {Chat, Notifications, Person, Search} from '@material-ui/icons'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import images from '../../constant/images'
 
 const Header = () => {
   return (
