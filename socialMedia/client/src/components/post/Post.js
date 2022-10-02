@@ -9,7 +9,7 @@ const Post = () => {
   return (
 		<div className="post">
 			{datas.map((post) => (
-				<div className="postWrapper">
+				<div key={post.id} className="postWrapper">
 					<div className="postTop">
 						<div className="postTopLeft">
 							<img className="postProfileImg" src={post.profile} alt="" />
